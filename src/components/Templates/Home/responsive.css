@@ -1,0 +1,214 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .h1 {
+    color: white;
+    font-size: 10rem;
+    margin-top: 15vh;
+  }
+  .page2 {
+    text-align: center;
+    justify-content: center;
+  }
+  .home_links {
+    display: inline;
+    padding: 0;
+  }
+  .home_link {
+    width: 100%;
+    height: 50%;
+  }
+  .image_link1 > img {
+    height:100%;
+    filter:blur(5px);
+  }
+  .image_link1:before{
+    background-color: black;
+    content:"ABOUT";
+    display:block;
+    color:white;
+    line-height:48px;
+    width:180px;
+    border:solid 1px white;
+    border-radius:5px;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-1em;
+    margin-left:-37vw;
+    opacity:0;
+    z-index:3;
+    transition:0.3s;
+    font-weight:bold;
+    letter-spacing:0.2em;
+    opacity:1;
+    margin-top:-0.5em;
+  }
+  .image_link2 > img {
+    height:100%;
+    margin:0;
+    filter:blur(5px);
+  }
+  .image_link2:before{
+    background-color: white;
+    content:"FAVORITE";
+    display:block;
+    color:black;
+    line-height:48px;
+    width:180px;
+    border:solid 1px black;
+    border-radius:5px;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-1em;
+    margin-left:-37vw;
+    opacity:0;
+    z-index:3;
+    transition:0.3s;
+    font-weight:bold;
+    letter-spacing:0.2em;
+    opacity:1;
+    margin-top:-0.5em;
+  }
+  .image_link3 > img {
+    height:100%;
+    margin-top: 25vh;
+    filter:blur(5px);
+  }
+  .image_link3:before{
+    background-color: black;
+    content:"CONTACT";
+    display:block;
+    color:white;
+    line-height:48px;
+    width:180px;
+    border:solid 1px white;
+    border-radius:5px;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-1em;
+    margin-left:-12vw;
+    opacity:0;
+    z-index:3;
+    transition:0.3s;
+    font-weight:bold;
+    letter-spacing:0.2em;
+    opacity:1;
+    margin-top:-0.5em;
+  }
+
+
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+  .h1 {
+    color: white;
+    font-size: 5rem;
+    margin-top: 200px;
+  }
+  .home_links {
+    display: block;
+    text-align: center;
+    width: 100vw;
+    height:100vh;
+  }
+  .home_link {
+    height:auto;
+  }
+  .image_link1 img {
+    height: 40vh;
+    filter:blur(5px);
+  }
+  .image_link1:before{
+    background-color: black;
+    content:"ABOUT";
+    display:block;
+    color:white;
+    line-height:48px;
+    width:180px;
+    border:solid 1px white;
+    border-radius:5px;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-1em;
+    margin-left:-47vw;
+    opacity:0;
+    z-index:3;
+    transition:0.3s;
+    font-weight:bold;
+    letter-spacing:0.2em;
+    opacity:1;
+    margin-top:-0.5em;
+  }
+  .image_link2 img {
+    height: 40vh;
+    filter:blur(5px);
+  }
+  .image_link2:before{
+    background-color: white;
+    content:"FAVORITE";
+    display:block;
+    color:black;
+    line-height:48px;
+    width:180px;
+    border:solid 1px black;
+    border-radius:5px;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-2em;
+    margin-left:-47vw;
+    opacity:0;
+    z-index:3;
+    transition:0.3s;
+    font-weight:bold;
+    letter-spacing:0.2em;
+    opacity:1;
+    margin-top:-0.5em;
+  }
+  .image_link3 img {
+    margin-top: 30vh;
+    height: 40vh;
+    width: 100vw;
+    filter:blur(5px);
+  }
+  .image_link3{
+    position:relative;
+    text-decoration:none;
+  }
+  .image_link3:before{
+    background-color: black;
+    content:"CONTACT";
+    display:block;
+    color:white;
+    line-height:48px;
+    width:180px;
+    border:solid 1px white;
+    border-radius:5px;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-2em;
+    margin-left:-47vw;
+    opacity:0;
+    z-index:3;
+    transition:0.3s;
+    font-weight:bold;
+    letter-spacing:0.2em;
+    opacity:1;
+    margin-top:-0.5em;
+  }
+
+
+
+
+}

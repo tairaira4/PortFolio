@@ -1,0 +1,98 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  #header {
+    padding-top: 80px;
+  }
+  .scrolldown1 > span {
+    display: none;
+  }
+  #favorite_container{
+    position: relative;
+    z-index:1;
+    background:#eee;
+    text-align: center;
+    background-color:aliceblue;
+    }
+  .obi {
+    background-color: #333;
+    height: 50px;
+    color: white;
+    font-size: 0.8rem;
+    padding-top: 15px;
+    text-align: center;
+    margin: 0;
+  }
+  .btn02 {
+    color: #ff701e;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    padding-bottom: 20px;
+  }
+  .demo {
+    height: 600px;
+    width: 100vw;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .favorite_game_text {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border: dashed yellowgreen;
+    margin:0px;
+  }
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+  #header {
+    padding-top: 80px;
+  }
+  .scrolldown1 > span {
+    display: none;
+  }
+  #favorite_container{
+    position: relative;
+    z-index:1;
+    background:#eee;
+    text-align: center;
+    background-color:aliceblue;
+    }
+  .obi {
+    background-color: #333;
+    height: 50px;
+    color: white;
+    font-size: 0.8rem;
+    padding-top: 15px;
+    text-align: center;
+    margin: 0;
+  }
+  .official_text {
+    margin-right: 40px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  .btn02 {
+    color: #ff701e;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    padding-bottom: 20px;
+  }
+  .demo {
+    height: 300px;
+    width: 100vw;
+    padding-bottom: 0;
+  }
+  .favorite_game_text {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    border: dashed yellowgreen;
+    margin:10px;
+  }
+}

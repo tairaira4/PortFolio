@@ -1,0 +1,136 @@
+@media all and (max-width: 670px) {
+  #box {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: blue;
+    height: 14rem;
+    width: 100vw;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0 #cecece;
+    background: linear-gradient(to right, blue, skyblue);
+  }
+  
+  .left {
+    position: absolute;
+  }
+  
+  .right {
+    position: absolute;
+    right: 40px;
+    top: 30px;
+  }
+  
+  
+  .title,
+  p {
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .title {
+    font-size: 0.9rem;
+  }
+  
+  p {
+    margin-top: 0;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+  }
+  
+  .size {
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 0.8rem;
+  }
+  
+  .three {
+    position: absolute;
+    display: flex;
+    top: 130px;
+    left: 20px;
+  }
+  
+  .image {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .three > div {
+    margin-right: 45px;
+  }
+  
+}
+
+@media all and (min-width: 670px) {
+
+
+#box {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-color: blue;
+  height: 14rem;
+  width: 23rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0 #cecece;
+  background: linear-gradient(to right, blue, skyblue);
+}
+
+.left {
+  position: absolute;
+}
+
+.right {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+}
+
+#box:hover {
+  transform: scale(1.05, 1.05);
+  transition-duration: 0.7s;
+}
+
+.title,
+p {
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.title {
+  font-size: 0.9rem;
+}
+
+p {
+  margin-top: 0;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.size {
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 0.8rem;
+}
+
+.three {
+  position: absolute;
+  display: flex;
+  top: 130px;
+  left: 20px;
+}
+
+.image {
+  color: white;
+  font-weight: bold;
+}
+
+.three > div {
+  margin-right: 45px;
+}
+}

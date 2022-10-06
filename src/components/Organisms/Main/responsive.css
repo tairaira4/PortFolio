@@ -1,0 +1,81 @@
+@media all and (max-width: 1000px) {
+  main {
+    width: 100vw;
+    padding-top: 100px;
+    margin: 0;
+  }
+
+  .mypage_section1_text {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .me {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+  }
+
+  .mypage_first {
+    text-align: center;
+  }
+  .me_name {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .mypage_section1_text2 {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    float: left;
+  }
+  .mypage_section1_text3 {
+    margin-left: 10px;
+    float: left;
+    margin-right: 20px;
+  }
+
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+  main {
+    width: 100vw;
+    padding-top: 100px;
+    margin: 0;
+  }
+
+  .mypage_section1_text {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .me {
+    width: 125px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .mypage_first {
+    text-align: center;
+  }
+  .me_name {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .mypage_section1_text2 {
+    margin-left: 10px;
+    float: left;
+    margin-bottom: 20px;
+    font-size:  16px;
+  }
+  .mypage_section1_text3 {
+    margin-left: 10px;
+    float: left;
+  }
+  .mypage_item {
+    text-align: center;
+  }
+}

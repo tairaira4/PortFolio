@@ -1,0 +1,15 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .map {
+    width: 100vw;
+    height:300px;
+  }
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+  .map {
+    width: 100vw;
+    height:300px;
+  }
+}

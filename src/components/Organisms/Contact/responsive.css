@@ -1,0 +1,19 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .contact_form input,
+  .contact_form textarea{
+    width: 600px;
+  }
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+  .contact_form {
+    padding: 60px 5px;
+    margin: 0;
+  }
+  .contact_form input,
+  .contact_form textarea{
+    width: 95vw;
+  }
+}

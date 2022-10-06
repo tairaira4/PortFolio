@@ -1,0 +1,185 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .header {
+    width: 100vw;
+    z-index: 11;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+  }
+  .header-list {
+    float: right;
+    margin-right: 0;
+  }
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+  .header {
+    width: 100vw;
+    z-index: 11;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+  }
+  
+  .header-logo {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .header-list > a {
+    margin: 0;
+    display: none;
+  }
+  .menu-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    background-color: #333;
+  }
+  .menu-btn span,
+  .menu-btn span:before,
+  .menu-btn span:after {
+      content: '';
+      display: block;
+      height: 3px;
+      width: 25px;
+      border-radius: 3px;
+      background-color: #ffffff;
+      position: absolute;
+  }
+  .menu-btn span:before {
+      bottom: 8px;
+  }
+  .menu-btn span:after {
+      top: 8px;
+  }
+
+  .menu-btn2 {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    background-color: #333;
+    transition: all 1s;
+  }
+  .menu-btn2 span,
+  .menu-btn2 span:before,
+  .menu-btn2 span:after {
+      content: '';
+      display: block;
+      height: 3px;
+      width: 25px;
+      border-radius: 3px;
+      background-color: #ffffff;
+      position: absolute;
+  }
+  .menu-btn2 span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+  .menu-btn2 span::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+  .menu-btn2 span {
+    background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+  }
+
+  .menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 80;
+    background-color: #0f1a22;
+  }
+  .menu-content > ul {
+    padding: 70px 10px 0;
+  }
+  .menu-content > ul > li {
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+  }
+  .menu-content > ul > li > a {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color:#ffffff;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+    position: relative;
+  }
+  .menu-content > ul > li > a::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 11px;
+    top: 16px;
+  }
+  .menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    z-index: 80;
+    background-color: #3584bb;
+    transition: all 0.5s;
+  }
+  #menu-btn-check:checked ~ .menu-content {
+    left: 0;/*メニューを画面内へ*/
+  }
+  #all-menu {
+    background-color: white;
+    height:300px;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+    box-shadow: 0px 3px 2px black;
+  }
+  #false-menu {
+    text-align: center;
+    padding-top: 50px;
+  }
+  #false-menu > a {
+    margin: 10px;
+    display: block;
+    text-decoration: none;
+    color: #0f1a22;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: fantasy;
+    letter-spacing: 1rem;
+    border: 2px solid #333;
+  }
+  .header-logo2 {
+    position: relative;
+    color: black;
+    font-weight: bold;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    font-size: 3rem;
+    text-decoration: none;
+    top: 40px;
+    left: 15px;
+  }
+}

@@ -3,6 +3,7 @@ import HomeMypage from '../../../photoImage/homeMypage.png'
 import HomeFavorite from '../../../images/LOL.png'
 import './style.css'
 import './responsive.css'
+import { Link } from 'react-router-dom'
 
 
 const PageIndex = () => {
@@ -38,9 +39,11 @@ const PageIndex = () => {
           <div className="page2">
             <div className="home_links">
               <div className="home_link">
-                <a href="About" className="image_link1">
-                  <img src={HomeMypage} alt="" />
-                </a>
+                <Link to="/PortFolio/About">
+                  <div className="image_link1">
+                    <img src={HomeMypage} alt="" />
+                  </div>
+                </Link>
               </div>
               <div className="home_link">
                 <a href="Favorite" className="image_link2">

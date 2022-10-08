@@ -15,7 +15,7 @@ const PageIndex:React.FC<Props> = ({ data }) => {
   return (
     <>
       {/* <Header /> */}
-      <Header2 />
+      <Header />
       <div>
         <Main data={data}/>
       </div>

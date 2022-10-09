@@ -39,7 +39,7 @@ const PageIndex = () => {
           <div className="page2">
             <div className="home_links">
               <div className="home_link">
-                <Link to="/PortFolio/About">
+                <Link to="/PortFolio/about">
                   <div className="image_link1">
                     <img src={HomeMypage} alt="" />
                   </div>

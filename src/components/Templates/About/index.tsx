@@ -14,8 +14,8 @@ interface Props {
 const PageIndex:React.FC<Props> = ({ data }) => {
   return (
     <>
-      {/* <Header /> */}
       <Header />
+      {/* <Header2 /> */}
       <div>
         <Main data={data}/>
       </div>

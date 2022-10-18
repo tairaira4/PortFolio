@@ -18,7 +18,7 @@ export const RouterConfig: React.VFC = () => {
           <Route path='/portfolio2' element={<Home />} />
           <Route path='/PortFolio/about' element={<About />} />
           <Route path='/PortFolio/favorite' element={<Favorite />} />
-          <Route path='/PortFolio/favorite2' element={<Favorite2 />} />
+          {/* <Route path='/PortFolio/favorite2' element={<Favorite2 />} /> */}
           <Route path='/PortFolio/contact' element={<Contact />} />
         </Routes>
       </BrowserRouter>

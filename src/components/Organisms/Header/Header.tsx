@@ -38,9 +38,9 @@ const Header = () => {
           <input type="checkbox" id="menu-btn-check"/>
           <label htmlFor="menu-btn-check" className="menu-btn2" onClick={() => {handleClick()}}><span></span></label>
           <div id="false-menu">
-            <a href="About">ABOUT</a>
-            <a href="Favorite">FAVORITE</a>
-            <a href="Contact">CONTACT</a>
+            <Link to="/about" className="lists">ABOUT</Link>
+            <Link to="/favorite" className="lists">FAVORITE</Link>
+            <Link to="/contact" className="lists">CONTACT</Link>
           </div>
         </div>
       </>}

@@ -5,7 +5,7 @@ import Main from '../../Organisms/Main/Main'
 import Footer from '../../Organisms/Footer/Footer'
 import { WeatherData } from '../../../types/weather'
 import './style.css'
-import Header2 from '../../Organisms/Header2/Header2'
+// import Header2 from '../../Organisms/Header2/Header2'
 
 interface Props {
   data: WeatherData

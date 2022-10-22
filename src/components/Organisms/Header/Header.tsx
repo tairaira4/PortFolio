@@ -23,9 +23,9 @@ const Header = () => {
             <label htmlFor="menu-btn-check" className="menu-btn" onClick={() => {handleClick()}}><span></span></label>
           </div>
         <nav className="header-list">
-          <Link to="about"><div>ABOUT</div></Link>
-          <Link to="about"><div >FAVORITE</div></Link>
-          <Link to="about"><div  id="header_contact">CONTACT</div></Link>
+          <Link to="about"><div className="lists">ABOUT</div></Link>
+          <Link to="about"><div className="lists">FAVORITE</div></Link>
+          <Link to="about"><div className="lists" id="header_contact">CONTACT</div></Link>
           
         </nav>
       </div>

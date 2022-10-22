@@ -16,10 +16,10 @@ export const RouterConfig: React.VFC = () => {
       <BrowserRouter>
         <Routes>
           <Route path='./' element={<Home />} />
-          <Route path='/PortFolio/about' element={<About />} />
-          <Route path='/PortFolio/favorite' element={<Favorite />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/favorite' element={<Favorite />} />
           {/* <Route path='/PortFolio/favorite2' element={<Favorite2 />} /> */}
-          <Route path='/PortFolio/contact' element={<Contact />} />
+          <Route path='/contact' element={<Contact />} />
           <Route path='*' element={<Home />} />
         </Routes>
       </BrowserRouter>

@@ -1,6 +1,6 @@
 {
   "name": "portfolio2",
-  "homepage": "https://beautiful-jelly-64da8c.netlify.app/",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

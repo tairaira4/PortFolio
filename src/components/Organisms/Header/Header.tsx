@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import './style.css'
 import './responsive.css'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     const [displayFlg,setDisplayFlg] = useState(true)
@@ -22,9 +23,10 @@ const Header = () => {
             <label htmlFor="menu-btn-check" className="menu-btn" onClick={() => {handleClick()}}><span></span></label>
           </div>
         <nav className="header-list">
-          <a href="About">ABOUT</a>
-          <a href="Favorite">FAVORITE</a>
-          <a href="Contact" id="header_contact">CONTACT</a>
+          <Link to="about"><div>ABOUT</div></Link>
+          <Link to="about"><div >FAVORITE</div></Link>
+          <Link to="about"><div  id="header_contact">CONTACT</div></Link>
+          
         </nav>
       </div>
       :

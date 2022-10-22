@@ -39,25 +39,29 @@ const PageIndex = () => {
           <div className="page2">
             <div className="home_links">
               <div className="home_link">
-                <Link to="/PortFolio/about">
+                <Link to="about">
                   <div className="image_link1">
                     <img src={HomeMypage} alt="" />
                   </div>
                 </Link>
               </div>
               <div className="home_link">
-                <a href="Favorite" className="image_link2">
-                  <img src={HomeFavorite} alt="" />
-                </a>
+                <Link to="favorite">
+                  <div className="image_link2">
+                    <img src={HomeFavorite} alt="" />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
           <div className="page3">
             <div className="home_links">
               <div className="home_link">
-                <a href="Contact" className="image_link3">
-                  <img src={HomeMypage} alt="" />
-                </a>
+                <Link to="contact">
+                  <div className="image_link3">
+                    <img src={HomeMypage} alt="" />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

@@ -46,7 +46,7 @@
 }
 
 
-.header-list > a {
+.header-list > div {
   color: black;
   margin: 35px;
   font-weight: bold;
@@ -54,7 +54,7 @@
   position: relative;
 }
 
-.header-list > a::before {
+.header-list > div::before {
   background: black;
   content: '';
   width: 100%;
@@ -68,7 +68,7 @@
   transition: transform .3s;
 }
 
-.header-list > a:hover::before {
+.header-list > div:hover::before {
   transform-origin: left top;
   transform: scale(1, 1);
 }

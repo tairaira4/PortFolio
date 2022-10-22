@@ -28,7 +28,7 @@
     margin-top: 20px;
     margin-left: 10px;
   }
-  .header-list > a {
+  .header-list > div {
     margin: 0;
     display: none;
   }

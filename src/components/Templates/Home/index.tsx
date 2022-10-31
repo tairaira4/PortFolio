@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import HomeMypage from '../../../photoImage/homeMypage.png'
-import HomeFavorite from '../../../images/LOL.png'
+import HomeFavorite from '../../../images/lol_home_img.png'
+import HomeContact from '../../../images/contact.png'
 import './style.css'
 import './responsive.css'
 import { Link } from 'react-router-dom'
@@ -48,7 +49,7 @@ const PageIndex = () => {
               <div className="home_link">
                 <Link to="favorite">
                   <div className="image_link2">
-                    <img src={HomeFavorite} alt="" />
+                    <img className="link2" src={HomeFavorite} alt="" />
                   </div>
                 </Link>
               </div>
@@ -59,7 +60,7 @@ const PageIndex = () => {
               <div className="home_link">
                 <Link to="contact">
                   <div className="image_link3">
-                    <img src={HomeMypage} alt="" />
+                    <img src={HomeContact} alt="" />
                   </div>
                 </Link>
               </div>
